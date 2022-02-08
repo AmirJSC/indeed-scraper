@@ -23,7 +23,7 @@ def visualize(csv):
     app = dash.Dash(__name__)
 
     app.layout = html.Div([
-    html.H4(children='US Agriculture Exports (2011)'),
+    html.H4(children='Job Postings'),
     generate_table(df)
     ])
 
